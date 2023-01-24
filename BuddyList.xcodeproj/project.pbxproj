@@ -13,6 +13,8 @@
 		3FA40C6B297DF05200BB5D68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA40C6A297DF05200BB5D68 /* Preview Assets.xcassets */; };
 		3FA40C78297DF28C00BB5D68 /* FuckinGoodApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C76297DF28C00BB5D68 /* FuckinGoodApp.xcdatamodeld */; };
 		3FA40C7A298016D300BB5D68 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C79298016D300BB5D68 /* PersistenceController.swift */; };
+		3FA40C7C29808EDE00BB5D68 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C7B29808EDE00BB5D68 /* DataManager.swift */; };
+		3FA40C7E29809C1600BB5D68 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C7D29809C1600BB5D68 /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3FA40C6A297DF05200BB5D68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FA40C77297DF28C00BB5D68 /* FuckinGoodApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FuckinGoodApp.xcdatamodel; sourceTree = "<group>"; };
 		3FA40C79298016D300BB5D68 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		3FA40C7B29808EDE00BB5D68 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		3FA40C7D29809C1600BB5D68 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				3FA40C76297DF28C00BB5D68 /* FuckinGoodApp.xcdatamodeld */,
-				3FA40C79298016D300BB5D68 /* PersistenceController.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -89,6 +92,8 @@
 		3FA40C72297DF11C00BB5D68 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				3FA40C79298016D300BB5D68 /* PersistenceController.swift */,
+				3FA40C7B29808EDE00BB5D68 /* DataManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 		3FA40C73297DF13B00BB5D68 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				3FA40C7D29809C1600BB5D68 /* TaskViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -186,6 +192,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FA40C78297DF28C00BB5D68 /* FuckinGoodApp.xcdatamodeld in Sources */,
+				3FA40C7E29809C1600BB5D68 /* TaskViewModel.swift in Sources */,
+				3FA40C7C29808EDE00BB5D68 /* DataManager.swift in Sources */,
 				3FA40C65297DF05100BB5D68 /* ContentView.swift in Sources */,
 				3FA40C63297DF05100BB5D68 /* BuddyListApp.swift in Sources */,
 				3FA40C7A298016D300BB5D68 /* PersistenceController.swift in Sources */,
