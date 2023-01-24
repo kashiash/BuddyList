@@ -15,6 +15,7 @@
 		3FA40C7A298016D300BB5D68 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C79298016D300BB5D68 /* PersistenceController.swift */; };
 		3FA40C7C29808EDE00BB5D68 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C7B29808EDE00BB5D68 /* DataManager.swift */; };
 		3FA40C7E29809C1600BB5D68 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C7D29809C1600BB5D68 /* TaskViewModel.swift */; };
+		3FA40C802980A2BA00BB5D68 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C7F2980A2BA00BB5D68 /* TaskListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3FA40C79298016D300BB5D68 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		3FA40C7B29808EDE00BB5D68 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		3FA40C7D29809C1600BB5D68 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		3FA40C7F2980A2BA00BB5D68 /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				3FA40C7D29809C1600BB5D68 /* TaskViewModel.swift */,
+				3FA40C7F2980A2BA00BB5D68 /* TaskListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA40C802980A2BA00BB5D68 /* TaskListViewModel.swift in Sources */,
 				3FA40C78297DF28C00BB5D68 /* FuckinGoodApp.xcdatamodeld in Sources */,
 				3FA40C7E29809C1600BB5D68 /* TaskViewModel.swift in Sources */,
 				3FA40C7C29808EDE00BB5D68 /* DataManager.swift in Sources */,
