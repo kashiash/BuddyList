@@ -11,6 +11,8 @@
 		3FA40C65297DF05100BB5D68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C64297DF05100BB5D68 /* ContentView.swift */; };
 		3FA40C67297DF05200BB5D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA40C66297DF05200BB5D68 /* Assets.xcassets */; };
 		3FA40C6B297DF05200BB5D68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA40C6A297DF05200BB5D68 /* Preview Assets.xcassets */; };
+		3FA40C78297DF28C00BB5D68 /* FuckinGoodApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C76297DF28C00BB5D68 /* FuckinGoodApp.xcdatamodeld */; };
+		3FA40C7A298016D300BB5D68 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C79298016D300BB5D68 /* PersistenceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		3FA40C66297DF05200BB5D68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FA40C68297DF05200BB5D68 /* BuddyList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BuddyList.entitlements; sourceTree = "<group>"; };
 		3FA40C6A297DF05200BB5D68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FA40C77297DF28C00BB5D68 /* FuckinGoodApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FuckinGoodApp.xcdatamodel; sourceTree = "<group>"; };
+		3FA40C79298016D300BB5D68 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,12 @@
 		3FA40C61297DF05100BB5D68 /* BuddyList */ = {
 			isa = PBXGroup;
 			children = (
+				3FA40C75297DF15E00BB5D68 /* App */,
+				3FA40C74297DF15000BB5D68 /* Views */,
+				3FA40C73297DF13B00BB5D68 /* ViewModels */,
+				3FA40C72297DF11C00BB5D68 /* Services */,
+				3FA40C71297DF0F400BB5D68 /* CoreData */,
 				3FA40C62297DF05100BB5D68 /* BuddyListApp.swift */,
-				3FA40C64297DF05100BB5D68 /* ContentView.swift */,
 				3FA40C66297DF05200BB5D68 /* Assets.xcassets */,
 				3FA40C68297DF05200BB5D68 /* BuddyList.entitlements */,
 				3FA40C69297DF05200BB5D68 /* Preview Content */,
@@ -67,6 +75,44 @@
 				3FA40C6A297DF05200BB5D68 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FA40C71297DF0F400BB5D68 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3FA40C76297DF28C00BB5D68 /* FuckinGoodApp.xcdatamodeld */,
+				3FA40C79298016D300BB5D68 /* PersistenceController.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		3FA40C72297DF11C00BB5D68 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3FA40C73297DF13B00BB5D68 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3FA40C74297DF15000BB5D68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FA40C64297DF05100BB5D68 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FA40C75297DF15E00BB5D68 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +185,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA40C78297DF28C00BB5D68 /* FuckinGoodApp.xcdatamodeld in Sources */,
 				3FA40C65297DF05100BB5D68 /* ContentView.swift in Sources */,
 				3FA40C63297DF05100BB5D68 /* BuddyListApp.swift in Sources */,
+				3FA40C7A298016D300BB5D68 /* PersistenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +402,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FA40C76297DF28C00BB5D68 /* FuckinGoodApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FA40C77297DF28C00BB5D68 /* FuckinGoodApp.xcdatamodel */,
+			);
+			currentVersion = 3FA40C77297DF28C00BB5D68 /* FuckinGoodApp.xcdatamodel */;
+			path = FuckinGoodApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3FA40C57297DF05100BB5D68 /* Project object */;
 }
