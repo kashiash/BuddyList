@@ -58,4 +58,6 @@ final class TaskViewModel{
     var dayString: String {
         dayFormatter.string(from: date)
     }
+    
+    static let example = TaskViewModel(id: UUID(), name: "Some name", date: Date())
 }

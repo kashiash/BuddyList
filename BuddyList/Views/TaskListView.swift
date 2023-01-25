@@ -39,19 +39,51 @@ struct TaskListView: View {
                             // refresh all data
                             refreshData()
                         }
-                       // .background(BackGroundClearView())
+                       .background(BackgroundClearView())
                     }
                 }
                 
                 List{
-                    
+                    ForEach(taskVM.tasks.indices, id: \.self) { idx in
+                        ZStack{
+                            TaskCellView(taskVM: taskVM.tasks[idx])
+                                .shadow(radius: 10)
+                            NavigationLink(destination: UpdateTaskView(taskVM: taskVM.tasks[idx])
+                                .onDisappear{refreshData()}
+                            ){
+                                EmptyView()
+                            }
+                            .opacity(0.0)
+                        }
+                    }
+                    .onDelete(perform: deleteTask(at: ))
+                    .listRowBackground(Color.clear)
+                    .listStyle(.plain)
                 }
+                .navigationTitle("")
+                .navigationBarHidden(true)
             }
+            .onAppear{
+                refreshData()
+            }
+            .background{
+                LinearGradient(colors: [.purple,.blue], startPoint: .topLeading, endPoint: .bottomTrailing)
+                   
+            }
+            .scrollContentBackground(.hidden)
+            .navigationBarTitleDisplayMode(.inline)
         }
+        .edgesIgnoringSafeArea(.all)
+        .preferredColorScheme(.dark)
     }
     
     func refreshData(){
         taskVM.fetchAllTasks()
+    }
+    func deleteTask(at offsets: IndexSet){
+        for index in offsets{
+            taskVM.removeTask(at: index)
+        }
     }
 }
 
