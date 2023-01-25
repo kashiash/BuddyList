@@ -12,8 +12,8 @@ struct TaskListView: View {
     @State private var  addNewPresented = false
     
     var header: some View {
-        VStack{
-            Text("Task")
+        VStack {
+            Text("🎂 Tasks 🎂")
                 .font(.largeTitle)
                 .foregroundColor(.white)
                 .frame(maxWidth: .infinity, maxHeight: 60)
@@ -27,16 +27,16 @@ struct TaskListView: View {
             VStack{
                 ZStack(alignment: .bottomTrailing) {
                     header
-                        .padding(.top,10)
+                        .padding(.top, 10)
                     Button(action: {addNewPresented.toggle()}){
                         Image(systemName: "plus.circle")
                             .font(.title)
                             .foregroundColor(.white)
                     }
                     .padding([.trailing,.bottom],20)
-                    fullScreenCover(isPresented: $addNewPresented){
-                        AddNewTaskView().onDisappear{
-                            // refresh all data
+                    .fullScreenCover(isPresented: $addNewPresented){
+                        AddNewTaskView()
+                            .onDisappear{
                             refreshData()
                         }
                        .background(BackgroundClearView())
@@ -68,9 +68,10 @@ struct TaskListView: View {
             }
             .background{
                 LinearGradient(colors: [.purple,.blue], startPoint: .topLeading, endPoint: .bottomTrailing)
-                   
             }
             .scrollContentBackground(.hidden)
+            .navigationTitle("")
+            .navigationBarHidden(true)
             .navigationBarTitleDisplayMode(.inline)
         }
         .edgesIgnoringSafeArea(.all)
