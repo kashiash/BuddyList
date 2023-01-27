@@ -66,9 +66,9 @@ struct TaskListView: View {
             .onAppear{
                 refreshData()
             }
-            .background{
+            .background(
                 LinearGradient(colors: [.purple,.blue], startPoint: .topLeading, endPoint: .bottomTrailing)
-            }
+            )
             .scrollContentBackground(.hidden)
             .navigationTitle("")
             .navigationBarHidden(true)

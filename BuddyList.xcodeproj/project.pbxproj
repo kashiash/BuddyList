@@ -21,6 +21,8 @@
 		3FA40C862981B7FC00BB5D68 /* TaskCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C852981B7FC00BB5D68 /* TaskCellView.swift */; };
 		3FA40C882981B97300BB5D68 /* UpdateTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C872981B97300BB5D68 /* UpdateTaskView.swift */; };
 		3FA40C8B2981C29D00BB5D68 /* BackgroundClearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C8A2981C29D00BB5D68 /* BackgroundClearView.swift */; };
+		3FA40C8D2981C79F00BB5D68 /* AddNewTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C8C2981C79F00BB5D68 /* AddNewTaskViewModel.swift */; };
+		3FA40C8F2981C80F00BB5D68 /* UpdateTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C8E2981C80F00BB5D68 /* UpdateTaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		3FA40C852981B7FC00BB5D68 /* TaskCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCellView.swift; sourceTree = "<group>"; };
 		3FA40C872981B97300BB5D68 /* UpdateTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTaskView.swift; sourceTree = "<group>"; };
 		3FA40C8A2981C29D00BB5D68 /* BackgroundClearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundClearView.swift; sourceTree = "<group>"; };
+		3FA40C8C2981C79F00BB5D68 /* AddNewTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTaskViewModel.swift; sourceTree = "<group>"; };
+		3FA40C8E2981C80F00BB5D68 /* UpdateTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 			children = (
 				3FA40C7D29809C1600BB5D68 /* TaskViewModel.swift */,
 				3FA40C7F2980A2BA00BB5D68 /* TaskListViewModel.swift */,
+				3FA40C8C2981C79F00BB5D68 /* AddNewTaskViewModel.swift */,
+				3FA40C8E2981C80F00BB5D68 /* UpdateTaskViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -219,11 +225,13 @@
 			files = (
 				3FA40C802980A2BA00BB5D68 /* TaskListViewModel.swift in Sources */,
 				3FA40C78297DF28C00BB5D68 /* FuckinGoodApp.xcdatamodeld in Sources */,
+				3FA40C8D2981C79F00BB5D68 /* AddNewTaskViewModel.swift in Sources */,
 				3FA40C7E29809C1600BB5D68 /* TaskViewModel.swift in Sources */,
 				3FA40C7C29808EDE00BB5D68 /* DataManager.swift in Sources */,
 				3FA40C65297DF05100BB5D68 /* ContentView.swift in Sources */,
 				3FA40C63297DF05100BB5D68 /* BuddyListApp.swift in Sources */,
 				3FA40C8B2981C29D00BB5D68 /* BackgroundClearView.swift in Sources */,
+				3FA40C8F2981C80F00BB5D68 /* UpdateTaskViewModel.swift in Sources */,
 				3FA40C842980AADC00BB5D68 /* AddNewTaskView.swift in Sources */,
 				3FA40C7A298016D300BB5D68 /* PersistenceController.swift in Sources */,
 				3FA40C882981B97300BB5D68 /* UpdateTaskView.swift in Sources */,
