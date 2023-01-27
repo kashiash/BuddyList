@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F98E0F129844F1700F2FF11 /* CarMake.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3F98E0F029844F1700F2FF11 /* CarMake.csv */; };
+		3F98E0F329844F4800F2FF11 /* CarModel.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3F98E0F229844F4800F2FF11 /* CarModel.csv */; };
+		3F98E0F529844F9D00F2FF11 /* CarGeneration in Resources */ = {isa = PBXBuildFile; fileRef = 3F98E0F429844F9D00F2FF11 /* CarGeneration */; };
+		3F98E0F729844FCB00F2FF11 /* CarSerie.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3F98E0F629844FCB00F2FF11 /* CarSerie.csv */; };
+		3F98E0F929844FF100F2FF11 /* CarTrim.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3F98E0F829844FF100F2FF11 /* CarTrim.csv */; };
+		3F98E0FB2984504C00F2FF11 /* CarEquipment.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3F98E0FA2984504C00F2FF11 /* CarEquipment.csv */; };
+		3F98E0FD2984508700F2FF11 /* CarType.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3F98E0FC2984508700F2FF11 /* CarType.csv */; };
+		3F98E0FF298450F600F2FF11 /* CarSpecification.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3F98E0FE298450F600F2FF11 /* CarSpecification.csv */; };
+		3F98E1012984517000F2FF11 /* CarOption.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3F98E1002984517000F2FF11 /* CarOption.csv */; };
+		3F98E1032984519B00F2FF11 /* CarOptionValue.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3F98E1022984519B00F2FF11 /* CarOptionValue.csv */; };
+		3F98E105298451F000F2FF11 /* CarSpecificationValue.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3F98E104298451F000F2FF11 /* CarSpecificationValue.csv */; };
 		3FA40C63297DF05100BB5D68 /* BuddyListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C62297DF05100BB5D68 /* BuddyListApp.swift */; };
 		3FA40C65297DF05100BB5D68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40C64297DF05100BB5D68 /* ContentView.swift */; };
 		3FA40C67297DF05200BB5D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA40C66297DF05200BB5D68 /* Assets.xcassets */; };
@@ -26,6 +37,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F98E0F029844F1700F2FF11 /* CarMake.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarMake.csv; sourceTree = "<group>"; };
+		3F98E0F229844F4800F2FF11 /* CarModel.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarModel.csv; sourceTree = "<group>"; };
+		3F98E0F429844F9D00F2FF11 /* CarGeneration */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarGeneration; sourceTree = "<group>"; };
+		3F98E0F629844FCB00F2FF11 /* CarSerie.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarSerie.csv; sourceTree = "<group>"; };
+		3F98E0F829844FF100F2FF11 /* CarTrim.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarTrim.csv; sourceTree = "<group>"; };
+		3F98E0FA2984504C00F2FF11 /* CarEquipment.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarEquipment.csv; sourceTree = "<group>"; };
+		3F98E0FC2984508700F2FF11 /* CarType.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarType.csv; sourceTree = "<group>"; };
+		3F98E0FE298450F600F2FF11 /* CarSpecification.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarSpecification.csv; sourceTree = "<group>"; };
+		3F98E1002984517000F2FF11 /* CarOption.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarOption.csv; sourceTree = "<group>"; };
+		3F98E1022984519B00F2FF11 /* CarOptionValue.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarOptionValue.csv; sourceTree = "<group>"; };
+		3F98E104298451F000F2FF11 /* CarSpecificationValue.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarSpecificationValue.csv; sourceTree = "<group>"; };
 		3FA40C5F297DF05100BB5D68 /* BuddyList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA40C62297DF05100BB5D68 /* BuddyListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyListApp.swift; sourceTree = "<group>"; };
 		3FA40C64297DF05100BB5D68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +79,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F98E0EF29844EBF00F2FF11 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F98E0F029844F1700F2FF11 /* CarMake.csv */,
+				3F98E0F229844F4800F2FF11 /* CarModel.csv */,
+				3F98E0F429844F9D00F2FF11 /* CarGeneration */,
+				3F98E0F629844FCB00F2FF11 /* CarSerie.csv */,
+				3F98E0F829844FF100F2FF11 /* CarTrim.csv */,
+				3F98E0FA2984504C00F2FF11 /* CarEquipment.csv */,
+				3F98E0FC2984508700F2FF11 /* CarType.csv */,
+				3F98E0FE298450F600F2FF11 /* CarSpecification.csv */,
+				3F98E1002984517000F2FF11 /* CarOption.csv */,
+				3F98E1022984519B00F2FF11 /* CarOptionValue.csv */,
+				3F98E104298451F000F2FF11 /* CarSpecificationValue.csv */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
 		3FA40C56297DF05100BB5D68 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +116,7 @@
 		3FA40C61297DF05100BB5D68 /* BuddyList */ = {
 			isa = PBXGroup;
 			children = (
+				3F98E0EF29844EBF00F2FF11 /* Files */,
 				3FA40C892981C28300BB5D68 /* Utils */,
 				3FA40C75297DF15E00BB5D68 /* App */,
 				3FA40C74297DF15000BB5D68 /* Views */,
@@ -211,7 +252,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F98E1012984517000F2FF11 /* CarOption.csv in Resources */,
+				3F98E0F129844F1700F2FF11 /* CarMake.csv in Resources */,
+				3F98E0FD2984508700F2FF11 /* CarType.csv in Resources */,
+				3F98E0F929844FF100F2FF11 /* CarTrim.csv in Resources */,
+				3F98E1032984519B00F2FF11 /* CarOptionValue.csv in Resources */,
+				3F98E0F529844F9D00F2FF11 /* CarGeneration in Resources */,
+				3F98E0F729844FCB00F2FF11 /* CarSerie.csv in Resources */,
+				3F98E0F329844F4800F2FF11 /* CarModel.csv in Resources */,
+				3F98E105298451F000F2FF11 /* CarSpecificationValue.csv in Resources */,
 				3FA40C6B297DF05200BB5D68 /* Preview Assets.xcassets in Resources */,
+				3F98E0FF298450F600F2FF11 /* CarSpecification.csv in Resources */,
+				3F98E0FB2984504C00F2FF11 /* CarEquipment.csv in Resources */,
 				3FA40C67297DF05200BB5D68 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
